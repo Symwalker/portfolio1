@@ -28,3 +28,27 @@
 .collapse{
     margin-left: 0 !important;
 }
+.icons:hover{
+    background-color: transparent !important;
+    color: gold !important;
+    /* outline: gold !important; */
+    border: 1px solid gold !important;
+    transform: translate(0px , -3px);
+    transition: 0.5s;
+}
+.whole{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    right: 0;
+}
+.footer-end{
+    text-transform: uppercase;
+    opacity: .8;
+    font-weight: bold;
+    color: gold;
+}
+.foot-head{
+    color: gold;
+}
