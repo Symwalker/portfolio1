@@ -52,3 +52,58 @@
 .foot-head{
     color: gold;
 }
+
+/* NAVBAR */
+#navbar{
+    z-index: 10000000000000000000000;
+    position: sticky;
+    width: 100vw;
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+
+/* HOME SECTION */
+#home{
+    margin-top: 0px;
+    padding-top: 100px;
+    height: 100vh;
+    background: rgb(191, 192, 183);
+}
+
+/* ABOUT SECTION */
+#about{
+    margin-top: 0px;
+    padding-top: 90px;
+    height: 100vh;
+    background: #90f5fa;
+}
+
+/* Services */
+#services{
+    margin-top: 0px;
+    padding-top: 70px;
+    height: 100vh;
+    background: #abff2c;
+}
+
+/* Projects */
+#projects{
+    margin-top: 0px;
+    padding-top: 70px;
+    height: 100vh;
+    background: #2cffd5;
+}
+
+/* Contact */
+#contact{
+    margin-top: 0px;
+    padding-top: 70px;
+    background: #fe9f06;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+
+#contact .contact-form .from-group{
+    margin-top: 50px;
+}
