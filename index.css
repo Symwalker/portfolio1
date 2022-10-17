@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: black !important;
+}
+.folio{
+    color: gold !important;
+}
+.anchor{
+    /* margin-left: 25px; */
+    padding-right: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+   
+}
+.anchor:hover{
+    color:gold  !important;
+    
+    
+}
+.dash{
+    color: black !important;
+  background-color: gold !important;
+}
+.collapse{
+    margin-left: 0 !important;
+}
