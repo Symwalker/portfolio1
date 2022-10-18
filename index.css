@@ -80,3 +80,38 @@
 .navo{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
 }
+.bg{
+    background-color: gold;
+}
+
+.ff:hover{
+    color: gold !important;
+}
+.bo{
+    border: 2px solid black !important;
+    /* background: black !important; */
+}
+.bo:hover{
+    /* border: 2px solid black !important; */
+    background: black !important;
+    transition: 0.5s
+}
+.cont{
+    color: gold !important;
+}
+.text-gold{
+    color: gold !important;
+}
+.send{
+    background-color: gold !important;
+    color: black !important;
+    border: none !important;
+    outline: none !important;
+    
+}
+.send:hover{
+    background-color: goldenrod !important;
+}
+textarea {
+    resize: none !important;
+ }
