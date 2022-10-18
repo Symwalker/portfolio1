@@ -80,6 +80,9 @@
 .navo{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
 }
+.footshd{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
+}
 .bg{
     background-color: gold;
 }
@@ -115,3 +118,42 @@
 textarea {
     resize: none !important;
  }
+
+
+ .httml{
+    color: white;
+}
+.text-col{
+    color: white;
+
+}
+.goldleaf{
+    color: gold;
+}
+
+.bg-1{
+    background-color: #f06529 !important;
+}    
+
+.bg-2{
+    background-color: #264de4 !important;
+}
+
+.bg-3{
+    background-color: #f0db4f !important;
+}
+
+.bg-4{
+    background-color: #563d7c !important;
+}
+
+.bg-5{
+    background-color: #61DBFB !important;
+}
+.pro{
+    width: 100% !important;
+}
+.daba{
+    display: flex;
+    justify-content: space-between;
+}
