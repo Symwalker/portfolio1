@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg{
-    background-color: black !important;
-}
 .folio{
     color: gold !important;
 }
@@ -22,8 +19,9 @@
     
 }
 .dash{
-    color: black !important;
+    color: none !important;
   background-color: gold !important;
+  border: 1px solid gold !important;
 }
 .collapse{
     margin-left: 0 !important;
@@ -37,11 +35,11 @@
     transition: 0.5s;
 }
 .whole{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0; */
     font-family: 'Poppins', sans-serif;
-    right: 0;
+    /* right: 0; */
 }
 .footer-end{
     text-transform: uppercase;
@@ -51,4 +49,34 @@
 }
 .foot-head{
     color: gold;
+}
+
+.gld{
+    color: gold;
+}
+.btnDOWn{
+    background: gold !important;
+    border: none;
+    border: 2px solid gold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif !important;
+
+    /* font-weight: ; */
+}
+
+.trans{
+    background: transparent !important;
+    border: 2px solid gold !important;
+    font-family: 'Poppins', sans-serif !important;
+
+    /* color: white !important */
+}
+.trans:hover{
+    background: gold !important;
+    color: black !important;
+    transition: 0.5s;
+}
+
+.navo{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
 }
